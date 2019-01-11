@@ -5,3 +5,5 @@ export const hello = (name: string): string => {
   };
   return `Hello ${name} ${JSON.stringify(params)}`;
 };
+
+console.log(hello("rollup"));
